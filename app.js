@@ -49,6 +49,10 @@ app.get('/', (req, res) => {
 	
 });
 
+app.get('/bacheca', (req, res) => {
+    res.send('Sono nella bacheca')
+    
+})
 
 app.listen(port, () => {
 	
